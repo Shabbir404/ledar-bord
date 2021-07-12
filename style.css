@@ -1,0 +1,172 @@
+            body{
+                font-family: 'Poppins', sans-serif;
+                background-color: #F3F1FF;
+
+            }
+
+            .section-conteinar{
+            margin-top: 3px;
+            color: #562EFF;
+            font-size: 24px;
+
+            }
+
+            main{
+           flex-direction: column;
+
+            display: flex;
+           align-items: center;
+
+            }
+            .conteinar{
+            padding: 30px;
+            background-color: white;
+            border-radius: 5px;
+            width: 870px;
+            margin-top: 21px;
+
+
+            }
+            /* top-pleyer style */
+
+            .pleyers{
+
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr ;
+            grid-row-gap: 30px;
+            margin-bottom: 30px;
+
+            }
+            .pleyer{
+
+                display: flex;
+                align-items: center;
+            }
+
+            .pleyer img{
+
+            width: 56px;
+            height: 56px;
+            }
+            .pleyar-name{
+            font-size: 18px;
+            margin-left: 16px;
+
+            }
+            hr{
+
+            border: 1px solid #D1D1D1;
+
+            }
+
+            /*-------------------------------
+            ----------top-blog-style-------- */
+
+            .blogs{
+                display: flex;
+
+            }
+
+            .blog .thumblain img{
+            width: 177px;       
+            height: 117px;
+
+            }
+            .blog-info{
+
+margin-left: 16px;
+
+            }
+            .blog-tittle{
+font-size: 20px;
+
+            }
+.blog-auther{
+
+color: #9f9f9f;
+font-size: 16px;}
+
+.blog-auther a{
+
+text-decoration: none;
+font-size: 16px;
+color: rgb(173, 13, 246);
+
+}
+.blog{
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-row-gap: 26px;
+
+}
+.top-blog {
+    margin-top: 30px;
+}
+
+/* cours-style */
+
+.courses{
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 99px;
+
+}
+
+.cours .cours-bennar img{
+
+height: 104px;
+width: 224px;
+
+}
+.cours-info{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.fa-star.star-icone  {
+
+color: rgb(251, 176, 0);
+
+}
+.fa-star{
+
+color: #EAEAEA;
+font-size: 12px;
+
+}
+    
+
+
+
+@media (max-width:688px) {
+    
+
+    
+    .conteinar {
+
+        width: 100%;
+        }
+        
+        .pleyers,.blog{
+        
+        grid-template-columns: repeat(1 fr);
+            
+        }
+        .pleyer,.blogs,.courses{
+        
+        
+            flex-direction: column;
+        }
+      .conteinar{
+        
+            grid-template-columns: repeat(1 fr);
+        }
+
+
+    }
+
+
